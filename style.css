@@ -5,17 +5,16 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
-  --color-dark-pink: #ff6863;
+  --color-pink: #dd583c;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
-  --color-blue: #73aace;
-  --color-yellow: #fff7d1;
+  --color-blue: #0094a9;
+  --color-yellow: #ede683;
   --color-orange: #feb546;
   --color-black: #000000;
   --color-green: #40cf93;
-  --color-light-green: #40e682;
+  --color-light-green: #00b59b;
 
   /* Font size */
   --font-large: 48px;
@@ -102,11 +101,11 @@ p {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: transparent;
   align-items: center;
   color: var(--color-white);
   padding: 16px;
-  transition: all var(--animation-duration) ease;
+  background-color: transparent;
+  transition: all var(--animation-duration) ease-in-out;
 }
 
 #navbar.navbar--dark {
@@ -132,7 +131,6 @@ p {
   padding: 8px 12px;
   margin: 0 4px;
   cursor: pointer;
-  border-radius: var(--size-border-radius);
 }
 
 .navbar__menu__item.active {
@@ -141,6 +139,11 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-light-green);
+}
+
+.navbar__menu__item.active,
+.navbar__menu__item:hover {
+  border-radius: var(--size-border-radius);
 }
 
 .navbar__toggle-btn {
@@ -323,6 +326,7 @@ p {
 .work__categories {
   margin: 40px;
 }
+
 .category__btn {
   border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);
@@ -354,7 +358,7 @@ p {
   top: -20px;
   left: 4px;
   opacity: 0;
-  transition: all var(--animation-duration) ease;
+  transition: all var(--animation-duration) ease-in;
 }
 
 .work__projects {
@@ -377,6 +381,7 @@ p {
 .project__img {
   max-width: 100%;
   max-height: 100%;
+  align-self: center;
 }
 
 .project__description {
@@ -391,7 +396,7 @@ p {
   left: 0;
   opacity: 0;
   transform: translateY(10px);
-  transition: all var(--animation-duration) ease;
+  transition: all var(--animation-duration) ease-in;
 }
 
 .project:hover .project__description {
@@ -443,17 +448,17 @@ p {
   margin-left: 40px;
 }
 
-.testimonial__speach-bubble {
+.testimonial__speech-bubble {
   padding: 18px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
-.testimonial__speach-bubble p {
+.testimonial__speech-bubble p {
   color: var(--color-light-grey);
 }
 
-.testimonial__speach-bubble a {
+.testimonial__speech-bubble a {
   color: var(--color-pink);
 }
 
@@ -475,7 +480,7 @@ p {
 .contact__links {
   font-size: var(--font-large);
   margin: 24px 0;
-  transition: all var(--animation-duration) ease;
+  transition: all var(--animation-duration) ease-in;
 }
 
 .contact__links i:hover {
