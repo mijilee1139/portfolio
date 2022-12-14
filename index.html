@@ -1,406 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Miji Lee</title>
-    <meta
-      name="description"
-      content="Portfolio for a Front-End developer Miji Lee"
-    />
-    <meta name="author" content="Miji Lee" />
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />
-    <script
-      src="https://kit.fontawesome.com/dcb3736e01.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-  </head>
 
-  <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-      <div class="navbar__logo">
-        <img src="imgs/favicon.png" class="logo" alt="Miji Lee" />
-        <a href="#">Miji Lee</a>
-      </div>
-      <ul class="navbar__menu">
-        <li class="navbar__menu__item active" data-link="#home">Home</li>
-        <li class="navbar__menu__item" data-link="#about">About</li>
-        <li class="navbar__menu__item" data-link="#skills">Skills</li>
-        <li class="navbar__menu__item" data-link="#work">My Work</li>
-        <!-- <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li> -->
-        <li class="navbar__menu__item" data-link="#contact">Contact</li>
-      </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miji Lee</title>
+  <meta name="description" content="Portfolio for a Front-End developer Miji Lee" />
+  <meta name="author" content="Miji Lee" />
+  <link rel="icon" type="image/png" href="imgs/favicon.png" />
+  <script src="https://kit.fontawesome.com/5e4cd41120.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
 
-      <!-- Toggle button -->
-      <button class="navbar__toggle-btn">
-        <i class="fas fa-bars"></i>
-      </button>
-    </nav>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <img src="imgs/favicon.png" class="logo" alt="Miji Lee" />
+      <a href="#">Miji Lee</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item active" data-link="#home">Home</li>
+      <li class="navbar__menu__item" data-link="#about">About</li>
+      <li class="navbar__menu__item" data-link="#skills">Skills</li>
+      <li class="navbar__menu__item" data-link="#work">My Work</li>
+      <!-- <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li> -->
+      <li class="navbar__menu__item" data-link="#contact">Contact</li>
+    </ul>
 
-    <!-- Home -->
-    <section id="home">
-      <div class="home__container">
-        <img
-          src="imgs/profile.JPG"
-          alt="Miji's profile photo"
-          class="home__avatar"
-        />
-        <h1 class="home__title">
-          Hello,
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home__container">
+      <img src="imgs/profile.png" alt="Miji's profile photo" class="home__avatar" />
+      <h1 class="home__title">
+        Hello,
+        <br />
+        I'm Miji Lee
+      </h1>
+      <h2 class="home__description">A Creative Web Designer & Developer</h2>
+      <button class="home__contact">Contact me</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section__container">
+    <h1>About me</h1>
+    <p>
+      I have deep enthusiasm for a creative and interactive web design and development.
+      It is based on Network Systems knowledge that includes making a web
+      server on Windows and Linux.
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-brands fa-figma"></i>
+        </div>
+        <h2 class="major__title">Web Design</h2>
+        <div class="major__description">
+          Figma, Vectornator, Webflow,
           <br />
-          I'm Miji Lee
-        </h1>
-        <h2 class="home__description">A Creative Front-end Developer</h2>
-        <button class="home__contact">Contact me</button>
+          WordPress, Adobe Suits
+        </div>
       </div>
-    </section>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fa-brands fa-square-js"></i>
+        </div>
+        <h2 class="major__title">Web Development</h2>
+        <div class="major__description">
+          HTML/CSS, JavaScript, Web APIs,
+          <br />
+          Webflow, WordPress, PHP, Python,
+          <br />
+          MySQL
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fas fa-network-wired"></i>
+        </div>
+        <h2 class="major__title">Network Systems</h2>
+        <div class="major__description">
+          Linux, Powershell,
+          <br />
+          Cisco Networking (Switch, Router),
+          <br />
+          Servers, Active Directory, Security
+        </div>
+      </div>
+    </div>
 
-    <!-- About -->
-    <section id="about" class="section section__container">
-      <h1>About me</h1>
+    <div class="about__backgrounds">
+      <h3 class="background__category">Education & Work experience</h3>
+      <div class="background">
+        <img src="imgs/bgs/SAIT_logo.png" alt="SAIT" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">
+            Sothern Alberta Institute of Technology, Network Systems
+          </p>
+          <p class="background__period">September, 2018 ~ June, 2020</p>
+        </div>
+      </div>
+      <div class="background">
+        <img src="imgs/bgs/volunteer.png" alt="ERA" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">
+            Electronic Recycling Association (ERA), Volunteer
+          </p>
+          <p class="background__period">May, 2019 ~ July, 2019</p>
+        </div>
+      </div>
+      <h3 class="background__category">Certificates</h3>
+      <div class="background">
+        <img src="imgs/bgs/coding_apple.jpg" alt="Coding apple" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">
+            Front end Development courses
+            <br />
+            (Certificate of Course Completion), Coding apple
+          </p>
+          <p class="background__period">November, 2021</p>
+        </div>
+      </div>
+      <div class="background">
+        <img src="imgs/bgs/cisco.png" alt="Cisco" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">
+            Emerging Technologies Workshop: Network Programmability with Cisco
+            APIC-EM
+            <br />
+            (Certificate of Course Completion), Cisco Networking Academy
+          </p>
+          <p class="background__period">April, 2020</p>
+        </div>
+      </div>
+      <div class="background">
+        <img src="imgs/bgs/ccna_routerswitching_large.jpg" alt="CCNA" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">
+            Cisco Certified Network Associate Routing and Switching, Cisco
+          </p>
+          <p class="background__period">August, 2019 ~ August, 2023</p>
+        </div>
+      </div>
+      <div class="background">
+        <img src="imgs/bgs/LinuxPlus Logo Certified.png" alt="CompTIA" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">
+            CompTIA Linux+ (Powered by LPI), CompTIA
+          </p>
+          <p class="background__period">Augutst 27, 2019</p>
+        </div>
+      </div>
+      <div class="background">
+        <img src="imgs/bgs/Lpi-logo.png" alt="LPIC-1" class="background__logo" />
+        <div class="background__description">
+          <p class="background__name">LPIC-1, Linux Professional Institute</p>
+          <p class="background__period">August, 2019 ~ August, 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">
+      <h1>Skills</h1>
+      <h2>Skills & Attributes</h2>
       <p>
-        I have deep enthusiasm for a creative and interactive web development.
-        It is based on Network Systems knowledge that includes making a web
-        server on Windows and Linux.
+        Experience with Web Design, Web Programming and Network Systems. Passion for learning new technologies.
+        Capable of working within a team environment and independently.
+        Ability to plan and time schedule, work under strict time pressure and
+        adapt quickly when needed.
       </p>
-      <div class="about__majors">
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-js"></i>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">Skills</h3>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Figma</span>
+              <span>95%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 95%;"></div>
+            </div>
           </div>
-          <h2 class="major__title">Front-end</h2>
-          <div class="major__description">
-            HTML/CSS, JavaScript, WordPress, PHP,
-            <br />
-            Web APIs
+          <div class="skill">
+            <div class="skill__description">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 95%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>CSS</span>
+              <span>95%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 95%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Webflow</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>WordPress</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>PHP</span>
+              <span>55%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 55%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Python</span>
+              <span>75%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Linux & Batch Shell</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Powershell</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>MySQL</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Apache Web Server</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Windows IIS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>Docker</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%;"></div>
+            </div>
           </div>
         </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fas fa-server"></i>
+
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools__list">
+              <li><span>Adobe Photoshop</span></li>
+              <li><span>Adobe Illustrator</span></li>
+              <li><span>Vectornator</span></li>
+              <li><span>Visual Studio Code</span></li>
+              <li><span>Packet Tracer</span></li>
+              <li><span>EVEng</span></li>
+              <li><span>VMware workstation</span></li>
+              <li><span>VMware ESXi</span></li>
+              <li><span>Cisco Systems Products</span></li>
+            </ul>
           </div>
-          <h2 class="major__title">Back-end</h2>
-          <div class="major__description">Python, MySQL</div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fas fa-network-wired"></i>
-          </div>
-          <h2 class="major__title">Network Systems</h2>
-          <div class="major__description">
-            Linux, Powershell,
-            <br />
-            Cisco Networking (Switch, Router),
-            <br />
-            Servers, Active Directory, Security
+
+          <div class="etc">
+            <h3 class="skillset__title">Etc.</h3>
+            <ul class="etc__list">
+              <li><span>Git</span></li>
+              <li><span>Openstack</span></li>
+              <li><span>Bootstrap</span></li>
+              <li><span>SASS</span></li>
+              <li><span>SCSS</span></li>
+            </ul>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="about__backgrounds">
-        <h3 class="background__category">Education & Work experience</h3>
-        <div class="background">
-          <img
-            src="imgs/bgs/SAIT_logo.png"
-            alt="SAIT"
-            class="background__logo"
-          />
-          <div class="background__description">
-            <p class="background__name">
-              Sothern Alberta Institute of Technology, Network Systems
-            </p>
-            <p class="background__period">September, 2018 ~ June, 2020</p>
-          </div>
-        </div>
-        <div class="background">
-          <img
-            src="imgs/bgs/volunteer.png"
-            alt="ERA"
-            class="background__logo"
-          />
-          <div class="background__description">
-            <p class="background__name">
-              Electronic Recycling Association (ERA), Volunteer
-            </p>
-            <p class="background__period">May, 2019 ~ July, 2019</p>
-          </div>
-        </div>
-        <h3 class="background__category">Certificates</h3>
-        <div class="background">
-          <img
-            src="imgs/bgs/coding_apple.jpg"
-            alt="Coding apple"
-            class="background__logo"
-          />
-          <div class="background__description">
-            <p class="background__name">
-              Front end Development courses
-              <br />
-              (Certificate of Course Completion), Coding apple
-            </p>
-            <p class="background__period">November, 2021</p>
-          </div>
-        </div>
-        <div class="background">
-          <img src="imgs/bgs/cisco.png" alt="Cisco" class="background__logo" />
-          <div class="background__description">
-            <p class="background__name">
-              Emerging Technologies Workshop: Network Programmability with Cisco
-              APIC-EM
-              <br />
-              (Certificate of Course Completion), Cisco Networking Academy
-            </p>
-            <p class="background__period">April, 2020</p>
-          </div>
-        </div>
-        <div class="background">
-          <img
-            src="imgs/bgs/ccna_routerswitching_large.jpg"
-            alt="CCNA"
-            class="background__logo"
-          />
-          <div class="background__description">
-            <p class="background__name">
-              Cisco Certified Network Associate Routing and Switching, Cisco
-            </p>
-            <p class="background__period">August, 2019 ~ August, 2023</p>
-          </div>
-        </div>
-        <div class="background">
-          <img
-            src="imgs/bgs/LinuxPlus Logo Certified.png"
-            alt="CompTIA"
-            class="background__logo"
-          />
-          <div class="background__description">
-            <p class="background__name">
-              CompTIA Linux+ (Powered by LPI), CompTIA
-            </p>
-            <p class="background__period">Augutst 27, 2019</p>
-          </div>
-        </div>
-        <div class="background">
-          <img
-            src="imgs/bgs/Lpi-logo.png"
-            alt="LPIC-1"
-            class="background__logo"
-          />
-          <div class="background__description">
-            <p class="background__name">LPIC-1, Linux Professional Institute</p>
-            <p class="background__period">August, 2019 ~ August, 2024</p>
-          </div>
-        </div>
+  <!-- Work -->
+  <section id="work" class="section">
+    <div class="section__container">
+      <h1>My Work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All
+          <span class="category__count">5</span>
+        </button>
+        <button class="category__btn" data-filter="web-design">
+          Web Design
+          <span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end
+          <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="back-end">
+          Back-end
+          <span class="category__count">0</span>
+        </button>
       </div>
-    </section>
 
-    <!-- Skills -->
-    <section id="skills" class="section">
-      <div class="section__container">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
-        <p>
-          Experience with configuring and troubleshooting Web server service on
-          Windows and Linux platform. Passion for learning new technologies.
-          Capable of working within a team environment and independently.
-          Ability to plan and time schedule, work under strict time pressure and
-          adapt quickly when needed.
-        </p>
-        <div class="skillset">
-          <div class="skillset__left">
-            <h3 class="skillset__title">Skills</h3>
-            <div class="skill">
-              <div class="skill__description">
-                <span>HTML</span>
-                <span>95%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 95%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>CSS</span>
-                <span>95%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 95%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>JavaScript</span>
-                <span>85%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 85%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>WordPress</span>
-                <span>80%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 80%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>PHP</span>
-                <span>55%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 55%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Python</span>
-                <span>75%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 55%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Linux & Batch Shell</span>
-                <span>90%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Powershell</span>
-                <span>90%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>MySQL</span>
-                <span>80%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 80%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Java</span>
-                <span>40%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 40%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Apache Web Server</span>
-                <span>90%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Windows IIS</span>
-                <span>90%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill__description">
-                <span>Docker</span>
-                <span>80%</span>
-              </div>
-              <div class="skill__bar">
-                <div class="skill__value" style="width: 80%;"></div>
-              </div>
-            </div>
+      <div class="work__projects">
+        <a href="https://mijilee1139.github.io/Game/" class="project" target="_blank" data-type="front-end">
+          <img class="project__img" src="imgs/projects/project5.png" alt="" />
+          <div class="project__description">
+            <h3>Carrot Game</h3>
+            <span>Clone coding with Refactoring Vanilla JavaScript</span>
           </div>
-
-          <div class="skillset__right">
-            <div class="tools">
-              <h3 class="skillset__title">Tools</h3>
-              <ul class="tools__list">
-                <li><span>Visual Studio Code</span></li>
-                <li><span>Adobe Photoshop</span></li>
-                <li><span>Adobe Illustrator</span></li>
-                <li><span>Packet Tracer</span></li>
-                <li><span>EVEng</span></li>
-                <li><span>VMware workstation</span></li>
-                <li><span>VMware ESXi</span></li>
-                <li><span>Cisco Systems Products</span></li>
-              </ul>
-            </div>
-
-            <div class="etc">
-              <h3 class="skillset__title">Etc.</h3>
-              <ul class="etc__list">
-                <li><span>Git</span></li>
-                <li><span>Openstack</span></li>
-                <li><span>Bootstrap</span></li>
-                <li><span>SASS</span></li>
-                <li><span>SCSS</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work -->
-    <section id="work" class="section">
-      <div class="section__container">
-        <h1>My Work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-          <button class="category__btn selected" data-filter="*">
-            All
-            <span class="category__count">5</span>
-          </button>
-          <button class="category__btn" data-filter="front-end">
-            Front-end
-            <span class="category__count">5</span>
-          </button>
-          <button class="category__btn" data-filter="react">
-            React.js
-            <span class="category__count">0</span>
-          </button>
-          <button class="category__btn" data-filter="back-end">
-            Back-end
-            <span class="category__count">0</span>
-          </button>
-        </div>
-
+        </a>
         <div class="work__projects">
-          <a
-            href="https://mijilee1139.github.io/Game/"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
-            <img class="project__img" src="imgs/projects/project5.png" alt="" />
+          <a href="imgs/projects/ChatWeb.png" class="project" target="_blank" data-type="web-design">
+            <img class="project__img" src="imgs/projects/project6.png" alt="" />
             <div class="project__description">
-              <h3>Carrot Game</h3>
-              <span>Clone coding with Refactoring Vanilla JavaScript</span>
+              <h3>Chat Website</h3>
+              <span>Website design with Figma</span>
             </div>
           </a>
           <!--
@@ -419,24 +401,15 @@
                     </div>
                 </a>
                 -->
-          <a
-            href="https://mijilee1139.github.io/shopping_list/"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
+          <a href="https://mijilee1139.github.io/shopping_list/" class="project" target="_blank" data-type="front-end">
             <img class="project__img" src="imgs/projects/project3.png" alt="" />
             <div class="project__description">
               <h3>Shopping List</h3>
               <span>Clone coding with Vanilla JavaScript</span>
             </div>
           </a>
-          <a
-            href="https://mijilee1139.github.io/responsive-navbar/"
-            class="project"
-            target="_blank"
-            data-type="front-end"
-          >
+          <a href="https://mijilee1139.github.io/responsive-navbar/" class="project" target="_blank"
+            data-type="front-end">
             <img class="project__img" src="imgs/projects/project2.png" alt="" />
             <div class="project__description">
               <h3>Responsive Navbar</h3>
@@ -445,10 +418,10 @@
           </a>
         </div>
       </div>
-    </section>
+  </section>
 
-    <!-- Testimonials -->
-    <!--
+  <!-- Testimonials -->
+  <!--
     <section id="testimonials" class="section">
         <div class="section__container">
             <h1>Testimonials</h1>
@@ -473,24 +446,25 @@
     </section>
     -->
 
-    <!-- Contact -->
-    <section id="contact" class="section">
-      <h1 class="contact__title">Let's talk!</h1>
-      <h2 class="contact__email">mijilee1139@gmail.com</h2>
-      <div class="contact__links">
-        <a href="https://github.com/mijilee1139" target="_blank">
-          <i class="fab fa-github-square"></i>
-        </a>
-        <a href="https://linkedin.com/in/miji-lee" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-      <p class="contact__rights">2021 Miji Lee - All rights reserved</p>
-    </section>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h1 class="contact__title">Let's talk!</h1>
+    <h2 class="contact__email">mijilee1139@gmail.com</h2>
+    <div class="contact__links">
+      <a href="https://github.com/mijilee1139" target="_blank">
+        <i class="fab fa-github-square"></i>
+      </a>
+      <a href="https://linkedin.com/in/miji-lee" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p class="contact__rights">2021 Miji Lee - All rights reserved</p>
+  </section>
 
-    <!-- Arrow up -->
-    <button class="arrow-up">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-  </body>
+  <!-- Arrow up -->
+  <button class="arrow-up">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</body>
+
 </html>
